@@ -1,0 +1,181 @@
+body{
+	background-image: url("fondo.png");
+}
+.img{
+	height: 110px;
+	width: 110px;
+	margin-top: -10px;
+	margin-left: 225px;
+}
+.img2{
+  height: 35px;
+	width: 35px;
+	margin-top: 30px;
+	margin-left: 470px;
+}
+.botón {
+    background: transparent;
+    color: black;
+	border-color: transparent;
+    cursor: pointer;
+    width: 150px;
+    font-family: cursive;
+    font-weight: 90px;
+    font-size: 20px;
+    margin: 1px 330px;
+    padding: 5px 30px;
+    text-align: center;
+    border-radius: 80px;
+    margin-top: -5px;
+}
+.botón:hover{
+    background: hsl(0, 0%, 100%);
+    transition: 0.15s;
+}
+
+  .container {
+    max-width: 90%;
+    margin: auto;
+    margin-top: 0px;
+  }
+  
+  :root {
+    --cfondo: rgb(207, 211, 212);
+    --cfondoForm1: rgba(1, 80, 88, 0.39);
+    --cfondoForm2: white;
+    --cnegro: black;
+    --ctexto: rgb(14, 81, 88);
+    --ctextoDark: rgb(1, 35, 39);
+    --cblanco: white;
+    --error: rgb(184, 31, 31);
+  }
+  
+  [type="checkbox"] {
+    display: none;
+  }
+  
+  [type="checkbox"]:checked + label::before {
+    background: var(--cnegro);
+    transition: 0.5s;
+    transform: rotate(180deg);
+  }
+  
+  [type="checkbox"]:checked + label {
+    color: var(--cnegro);
+  }
+  
+  /* ---- FORMULARIO ---- */
+  
+  .form {
+    /* border: 3px solid green; */
+    border-radius: 40px;
+    max-width: 550px;
+    padding: 10px 50px;
+    margin: auto;
+    margin-top: 100px;
+    background: linear-gradient(
+      0deg,
+      var(--cfondoForm1) 0%,
+      var(--cfondoForm2) 50%
+    );
+  }
+  
+  .form-titulo {
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin: 10;
+    margin-bottom: 25px;
+    letter-spacing: 5px;
+  }
+  
+  .form-input {
+    margin-bottom: 30px;
+  }
+  
+  .form-input label {
+    display: block;
+    margin-top: 0px;
+    font-size: 15px;
+    color: var(--ctexto);
+  }
+  
+  .form-input input {
+    width: 100%;
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 1px solid var(--ctexto);
+  }
+  
+  .form-input input:focus + label {
+    font-weight: bold;
+    color: var(--cnegro);
+  }
+  
+  .form-termsAndConditions {
+    margin-left: 15px;
+    position: relative;
+    color: var(--ctexto);
+    font-size: 12px;
+  }
+  
+  .form-termsAndConditions label::before {
+    content: "";
+    width: 8px;
+    height: 8px;
+    border: 1px solid var(--cnegro);
+    position: absolute;
+    left: -14px;
+  }
+  
+  .form-boton input {
+    background: transparent;
+    color: black;
+    padding: 10px 50px;
+    font-size: 20px;
+    display: block;
+    margin: -10px 280px;
+    margin-top: 20px;
+    border-radius: 70px;
+    border-color: transparent;
+    font-family: cursive;
+    cursor: pointer;
+  }
+  
+  .form-boton input:hover {
+    background: rgb(192, 255, 176);
+    transition: 0.10s;
+  }
+  
+  .mensajeError {
+    color: var(--error);
+    margin-top: 0px;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  
+  .mensajeCorrecto {
+    text-align: center;
+    font-weight: bold;
+  }
+  .btn{
+    display: block;
+    width: 100px;
+    font-family: cursive;
+    font-weight: 40px;
+    border-radius: 200px;
+    margin: -70px 470px;
+    padding: 10px 10px;
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+    text-align: center;
+    border-color: black;
+}
+.btn:hover{
+    background: rgb(192, 255, 176);
+    transition: 0.10s;
+}

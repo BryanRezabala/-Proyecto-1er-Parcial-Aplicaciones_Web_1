@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Registro de estudiante</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div id="container">
+      <h1>Registro del estudiante</h1>
+      <img class="img"  src="registo.png">
+      <div id="input-container">
+        <input type="text" id="name-input" placeholder="Agregar nombre">
+        <input type="email" id="email-input" placeholder="Agregar correo">
+        <button id="add-btn">AGREGAR</button>
+      </div>
+      <table>
+        <thead>
+          <tr>
+            <th>N.º</th>
+            <th>NOMBRE DEL ESTUDIANTE</th>
+            <th>CORREO PERSONAL</th>
+            <th>ACCIÓN</th>
+          </tr>
+        </thead>
+        <tbody id="table-body"></tbody>
+      </table>
+      <div id="update-container">
+        <input type="text" id="update-name-input">
+        <input type="text" id="update-email-input">
+        <button id="update-btn">Confirmar</button>
+        <button id="cancel-btn">Cancelar</button>
+      </div>
+    </div>
+    <a class="btn" href="file:///C:/Users/Home/Desktop/proyecto/MenuPrincipal/index.html">Volver</a>
+    <img src="volver.png" class="img2" alt="">
+    <script src="script.js"></script>
+  </body>
+</html>
